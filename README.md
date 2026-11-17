@@ -10,20 +10,20 @@ GENERAL INFORMATION
    2024_08_27 Frog Orientation Data.csv
    2026_09_23 Obs Avg w Area.csv
 
-3. Author Information
+2. Author Information
 		Name: XXX
 		Institution: Department of Biology, XXX
 		Email: XXX 
 
-4. Date of data collection: 2023-2024
+3. Date of data collection: 2023-2024
 
-5. Geographic location of data collection: XXX  
+4. Geographic location of data collection: XXX  
 
-6. Information about funding sources that supported the collection of the data: Funding was provided by XXX
+5. Information about funding sources that supported the collection of the data: Funding was provided by XXX
    
-7. License information: N/A
+6. License information: CC-BY 4.0
 
-8. DOI for data and code repository: 10.1098/rspb.2026.2016
+7. DOI for data and code repository: 10.1098/rspb.2026.2016
 
 
 DATA & FILE OVERVIEW
@@ -46,16 +46,18 @@ Code
 METHODOLOGICAL INFORMATION
 
 1. Description of methods used for collection/generation of data: 
-XXXX
+Frogs were assigned to one of four treatment groups. Each group was tested under a single magnetic field treatment in which the direction of magnetic north was rotated 0, 90, 180, or 270 relative to the ambient magnetic field. During a trial, the body axis of the frog relative to magnetic north was recorded using a camera. For each individual, a mean orientation angle for the ten trials was then calculated using standard procedures for circular statistics.
 
-2. Methods for processing the data: 
+Frogs were exposed to one of the following magnetic field treatments for one hour: (1) no magnetic field change (baseline); (2) sham magnetic field change (sham); or (3) magnetic field change (magnetic field). Immediately after treatment exposure, brains were fixed, cryoprotected, and sectioned. To label recently activated neurons, sections were stained using a standard immunohistochemistry procedure that relies on phospho-S6 ribosomal protein as a general marker of neural activity. For each brain region, we captured images of sections and all labeled cells were counted across multiple tissue sections.
+
+3. Methods for processing the data: 
 Data were analyzed using the 2026_10_07 Frog Paper Code.Rmd R code.
 
-3. Instrument- or software-specific information (including package versions) needed to interpret the data: 
+4. Instrument- or software-specific information (including package versions) needed to interpret the data: 
 
-R Version 2026.10.1+239 (2026.10.1+239)
-Platform: 2 GHz Quad-Core Intel Core i5
-Running under: Mac 26.6.2 (25G83)
+R version 4.4.2 (2024-10-31)
+Platform: x86_64-apple-darwin20
+Running under: macOS 26.6.2
 
 attached base packages:
 stats
@@ -121,6 +123,6 @@ Objective: magnification of image captured for a section
 Analysis_1: first observer counts of pS6-positive cells for a section
 Analysis_2: second observer counts of pS6-positive cells for a section
 Obs_Avg: average count of pS6-positive cells of Analysis_1 and Analysis_2
-Area: area for a section that quantified 
+Area: area for a section where cell counts were quantified 
 
 5. Missing data codes: NA
