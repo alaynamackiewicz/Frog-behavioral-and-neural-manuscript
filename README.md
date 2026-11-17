@@ -98,7 +98,7 @@ Subject: unique number for each tested animal
 MF: indicates magnetic field treatment
 Avg_Angle: indicates the average angle of orientation across 10 trials for each animal
 Norm_Avg_Angle: the average angle of orientation normalized to magnetic north to account for MF treatment
-Bimodal_Norm_Avg_Angle: to test for bimodal magnetic alignment, mean orientation angles (Norm_Avg_Angle) were doubled and values greater than 360 were reduced by subtracting 360 
+Bimodal_Norm_Avg_Angle: to test for bimodal magnetic alignment, mean orientation angles (Norm_Avg_Angle) were doubled and values greater than 360 deg were reduced by subtracting 360 deg
 r.value: resultant vector length (0-1)
 
 4. Missing data codes: NA
