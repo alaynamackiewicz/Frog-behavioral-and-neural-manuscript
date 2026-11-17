@@ -48,7 +48,6 @@ METHODOLOGICAL INFORMATION
 1. Description of methods used for collection/generation of data: 
 XXXX
 
-
 2. Methods for processing the data: 
 Data were analyzed using the 2026_10_07 Frog Paper Code.Rmd R code.
 
@@ -87,7 +86,7 @@ broom.mixed 0.2.9.6
 
 loaded via a namespace (and not attached): N/A
 
-DATA-SPECIFIC INFORMATION FOR: ******UPDATE
+DATA-SPECIFIC INFORMATION FOR:
 
 2024_08_27 Frog Orientation Data.csv
 1. Number of variables: 6
@@ -100,6 +99,28 @@ MF: indicates magnetic field treatment
 Avg_Angle: indicates the average angle of orientation across 10 trials for each animal
 Norm_Avg_Angle: the average angle of orientation normalized to magnetic north to account for MF treatment
 Bimodal_Norm_Avg_Angle: to test for bimodal magnetic alignment, mean orientation angles (Norm_Avg_Angle) were doubled and values greater than 360 were reduced by subtracting 360 
-r.value:
+r.value: resultant vector length (0-1)
+
+4. Missing data codes: NA
+
+2026_09_23 Obs Avg w Area.csv
+1. Number of variables: 13
+
+2. Number of cases/rows: 773
+
+3. Variable List: 
+Frog_ID: unique number for each animal
+Treatment: indicates magnetic field treatment
+Sex: male or female
+Brain_Region: indicates brain region where pS6-positive cells was counted for a section
+Slide: indicates slide number for a section
+Row: indicates what row for a section
+Section: what section number in the row
+Lobe: R or L brain hemisphere
+Objective: magnification of image captured for a section
+Analysis_1: first observer counts of pS6-positive cells for a section
+Analysis_2: second observer counts of pS6-positive cells for a section
+Obs_Avg: average count of pS6-positive cells of Analysis_1 and Analysis_2
+Area: area for a section that quantified 
 
 5. Missing data codes: NA
