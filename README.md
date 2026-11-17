@@ -7,7 +7,7 @@ PUBLICATION INFORMATION: <insert citation>
 GENERAL INFORMATION
 
 1. Title of Datasets:
-   2024_08_27 Frog Orientation Data.csv
+   2024_08_27 Frog Orientation Data.csv,
    2026_09_23 Obs Avg w Area.csv
 
 2. Author Information
@@ -46,7 +46,7 @@ Code
 METHODOLOGICAL INFORMATION
 
 1. Description of methods used for collection/generation of data: 
-Frogs were assigned to one of four treatment groups. Each group was tested under a single magnetic field treatment in which the direction of magnetic north was rotated 0, 90, 180, or 270 relative to the ambient magnetic field. During a trial, the body axis of the frog relative to magnetic north was recorded using a camera. For each individual, a mean orientation angle for the ten trials was then calculated using standard procedures for circular statistics.
+Frogs were assigned to one of four treatment groups. Each group was tested under a single magnetic field treatment in which the direction of magnetic north was rotated 0 deg, 90 deg, 180 deg, or 270 deg relative to the ambient magnetic field. During a trial, the body axis of the frog relative to magnetic north was recorded using a camera. For each individual, a mean orientation angle for the ten trials was then calculated using standard procedures for circular statistics.
 
 Frogs were exposed to one of the following magnetic field treatments for one hour: (1) no magnetic field change (baseline); (2) sham magnetic field change (sham); or (3) magnetic field change (magnetic field). Immediately after treatment exposure, brains were fixed, cryoprotected, and sectioned. To label recently activated neurons, sections were stained using a standard immunohistochemistry procedure that relies on phospho-S6 ribosomal protein as a general marker of neural activity. For each brain region, we captured images of sections and all labeled cells were counted across multiple tissue sections.
 
